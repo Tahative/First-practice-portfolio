@@ -1,3 +1,8 @@
+/* common shared styles */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 ul{
     display: flex;
     list-style: none;
@@ -5,4 +10,13 @@ ul{
 }
 li{
     margin-right: 10px;
+}
+nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary
+{
+    color: rgb(240, 160, 70);
 }
