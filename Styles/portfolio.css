@@ -2,60 +2,79 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 .container {
   display: flex;
   justify-content: end;
-
+  align-items: center;
   color: #181818;
 }
 li > a {
   text-decoration: none;
 }
+/* header related styles */
+header {
+  background-image: url(..//images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 640px; 
+
+}
+
 nav li {
   list-style: none;
   margin-right: 50px;
   color: #474747;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+.banner-greeting {
+  color: #474747;
+  font-family: Open Sans;
+  font-size: 50px;
+  font-style: normal;
+}
+.banner-title {
+  font-size: 85px;
+  font-style: normal;
+  line-height: 1px;
+}
+
 li {
   margin-right: 10px;
 }
 .btn-primary {
   border-radius: 5px;
   background: #fd6e0a;
-  width: 150px;
-  height: 64px;
-  color: var(--white-color, #fff);
+  width: 160px;
+  height: 50px;
+  color: #fff;
   font-family: Open Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-size: 16px;
   border: none;
+  padding: 15px 25px;
 }
-.nav-title {
-  color: var(--dark-01, #181818);
+.mary {
+  color: #181818;
   font-family: Open Sans;
   font-size: 45px;
   font-style: normal;
   font-weight: 800;
-  line-height: normal;
-  margin-left: 226px;
+  margin-left: 185px;
   margin-top: 51px;
 }
 
 .logo {
-  color: var(--dark-01, #181818);
+  color: #181818;
   font-family: Open Sans;
   font-size: 45px;
   font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 .text-primary {
   color: #fd6e0a;
@@ -63,5 +82,26 @@ li {
   font-size: 45px;
   font-style: normal;
   font-weight: 800;
-  line-height: normal;
+}
+/* this is banner section */
+
+.banner-section {
+  margin-left: 95px;
+  max-width: 600px;
+  line-height: 1;
+  margin-top: 50px;
+}
+.description {
+  color: #757575;
+  line-height: 2;
+}
+.hardy {
+  width: 420px;
+  height: 500px;
+  margin: 0 0px 20px 0 100px;
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
