@@ -143,8 +143,8 @@ main {
 .about {
   padding: 130px;
   border-radius: 10px;
-  background: #FFF8F3;
-  margin: 130px 0 ;
+  background: #fff8f3;
+  margin: 130px 0;
 }
 
 .info-title {
@@ -172,6 +172,30 @@ main {
   margin-top: 0px;
 }
 
-/* .info-discription{
+/* what I do section */
+
+.what-i-do-container {
   text-align: center;
-} */
+  margin: 130px;
+}
+
+.what-i-do-title {
+  color: #181818;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 0px;
+}
+.what-i-do-cap {
+  color: #757575;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 0;
+}
