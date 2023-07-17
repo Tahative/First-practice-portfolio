@@ -18,7 +18,7 @@ li > a {
 .section-title {
   color: #181818;
   text-align: center;
-  
+
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -80,7 +80,7 @@ li {
   font-weight: 800;
 }
 .text-primary {
-  color: #fd6e0a; 
+  color: #fd6e0a;
   font-size: 45px;
   font-style: normal;
   font-weight: 800;
@@ -214,5 +214,27 @@ main section {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
-  
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.resume-item-description,
+.resume-item-institute {
+  color: #757575;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px
+}
+
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
 }
